@@ -28,7 +28,8 @@
             android:onClick="increaseScore"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/dog" />
+            app:srcCompat="@drawable/dog"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <ImageView
             android:id="@+id/imageView2"
